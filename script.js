@@ -5,7 +5,7 @@ for(let i=0;i<level.length;i++){
    
         if(level[i].id=="level"){
             
-                console.log(i+1)
+                window.alert("The level of the element is: "+(i+1))
             
         }
     
