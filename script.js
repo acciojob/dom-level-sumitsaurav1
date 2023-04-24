@@ -1,11 +1,12 @@
 //your JS code here. If required.
 let level = document.querySelectorAll("ul>li")
-level.addEventListner("click",()=>{
-	for(let i=0;i<level.length;i++) {
-		if(level[i].id=="level"){
-			window.alert('The level of the element is: '+(i+1))
-		
-		 return;
-		}
-	}
-})
+console.log(level)
+for(let i=0;i<level.length;i++){
+   
+        if(level[i].id=="level"){
+            
+                console.log(i+1)
+            
+        }
+    
+}
